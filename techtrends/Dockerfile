@@ -3,7 +3,7 @@ FROM python:2.7
 LABEL maintainer="Dhruvil Karani"
 
 COPY . /app
-WORKDIR /app
+WORKDIR /app/techtrends
 RUN pip install -r requirements.txt
 
 EXPOSE 3111
